@@ -1,0 +1,125 @@
+
+               
+
+                @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Dancing+Script:wght@700&display=swap');
+
+                @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+                * {
+                        margin: 0;
+                        padding: 0;
+                }
+                body{
+                        background: url('background.png') no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: repeat-y;
+                        height: 200%;
+                        
+                }
+
+                #heading {
+                        padding: 0px 10px;
+                        width: 80%;
+                        margin: 2% auto;
+                        justify-content: center;
+                        
+                        align-items: center;
+                        border-top-left-radius: 20px;
+                        border-bottom-right-radius: 25px;
+                }
+
+                #heading h1 {
+                        text-align: center;
+                        font-weight: bolder;
+                        font-size: 60px;
+                        font-family: 'Dancing Script', cursive;
+
+                }
+                .help{
+                        font-size: 30px;
+                        display: inline-block;
+                        position: absolute;
+                        top: 5%;
+                        right: 10%;
+                        width: 300px;
+                        height: 35px;
+                        border: 1px solid white;
+                        text-decoration: none;
+                        color: white;
+                }
+                
+                #input {
+                        background: url('main.png') no-repeat center;
+                        width: 90%;
+                        height: 192px;
+                        margin: auto;
+                }
+
+                #input p, input {
+                        text-align: center;
+                }
+
+
+                #input p{
+                        font-size: 25px;
+                        font-family: 'Baloo Bhai 2', cursive;
+                }
+
+                #input input{
+                        height: 35px;
+                        margin-top: 40px;
+                        width: 800px;
+                }
+
+                #input input[type = "text"]{
+                        font-size: 25px;
+                        font-family: 'Dancing Script', cursive;
+
+                }
+                button{
+                        margin: 50px auto ;
+                        display: block;
+                        width: 190px;
+                        height: 45px;
+                        border-top-left-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        border: 2px solid red;
+                        font-weight: bolder;
+                        font-size: 20px;
+                        
+                }
+
+                button:hover{
+                        cursor: pointer;
+                        color: white;
+                        background-color: black;
+                }
+
+                #output{
+                        text-transform: uppercase;
+                        font-family: 'Damion', cursive;
+                        margin-top: 21px;
+                        margin-left: 20px;
+                        font-size: 30px; 
+                        
+                }
+
+                pre{
+                        align-items: center;
+                        width: 90%;
+                        margin: 10px auto;
+                        padding: 20px;
+                        text-align: center;
+                        background: wheat;
+                        border-top-left-radius: 28px;
+                        border-bottom-right-radius: 30px;
+                }
+                pre:hover{
+                        border: 1px solid black;
+                }
+                
+                
+                pre #d1{
+                        font-size: 20px;
+                        height: 200px;
+                }
